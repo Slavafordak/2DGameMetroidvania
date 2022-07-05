@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8348971402345639671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8348971402345639669}
+  - component: {fileID: 8348971402345639668}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8348971402345639669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8348971402345639671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -46.97706, y: -4.545075, z: 0.1387346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8348971402345639668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8348971402345639671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd46050fccc04142917e3184284ba42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: 1
+    clip: {fileID: 8300000, guid: 67a08e6b30e36054f883d3945de3b88c, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerWalk
+    clip: {fileID: 8300000, guid: 67a08e6b30e36054f883d3945de3b88c, type: 3}
+    volume: 0.564
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 44cf366edae0d4e41af9dc11b9b66e03, type: 3}
+    volume: 0.061
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: DiePlayer
+    clip: {fileID: 8300000, guid: 795431e059115be42884bdad6005dd99, type: 3}
+    volume: 0.31
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AttackPL
+    clip: {fileID: 8300000, guid: c1585cee602f10741aa833e269bede57, type: 3}
+    volume: 0.31
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: JumpPL
+    clip: {fileID: 8300000, guid: 0636277e98f08584b8d8af273fa87370, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SK_WALK
+    clip: {fileID: 8300000, guid: c65eb45ab41e3e94f993e9f78574c5b2, type: 3}
+    volume: 0.118
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SK_HIT
+    clip: {fileID: 8300000, guid: 96a3a1e4b1fe8e945985ab9d83049de5, type: 3}
+    volume: 0.668
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SK_DESTR
+    clip: {fileID: 8300000, guid: f30911fc5be4b43479a91542a35a0188, type: 3}
+    volume: 0.708
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SK_ATTACK
+    clip: {fileID: 8300000, guid: 271453cc01756d642abe472114e599af, type: 3}
+    volume: 0.708
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
